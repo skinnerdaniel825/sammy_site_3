@@ -1,0 +1,101 @@
+html, body {
+  background-color: #ff8888;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.primary {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.content{
+  width: 600px;
+  background-color: #4200008e;
+  padding: 0 20px 20px 20px;
+  border: 5px solid #000000;
+}
+
+.sammy-pages{
+  width: 300px;
+  background-color: #4200008e;
+  padding: 0 20px 20px 20px;
+  border: 5px solid #000000;
+}
+
+.aux-content{
+  width: 600px;
+  margin: 0 auto;
+  background-color: #4200008e;
+  padding: 20px;
+  border: 5px solid #000000;
+  text-align: center;
+}
+
+.aux-content h1{
+  font-Size: 60px;
+  margin: 0;
+  padding: 20px 0;
+  color: #ffee00;
+  text-shadow: -4px -4px 2px #000000;
+  text-align: center;
+}
+
+.content p,
+.sammy-pages p{
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.5;
+  letter-spacing: -1.3px;
+}
+
+.aux-content p{
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.1;
+  letter-spacing: -1px;
+}
+
+.content li,
+.sammy-pages li
+.aux-content li{
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(0, 255, 34);
+  line-height: 1.5;
+  letter-spacing: -1.3px;
+}
+
+.content h1{
+  font-Size: 60px;
+  margin: 0;
+  padding: 20px 0;
+  color: #f5ff6e;
+  text-shadow: -3px -3px 5px #000000;
+  text-align: center;
+}
+
+.sammy-pages h2{
+  font-Size: 30px;
+  margin: 0;
+  padding: 20px 0;
+  color: #f5ff6e;
+  text-shadow: -6px -6px 10px #000000;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 1000px;
+}
+
+.aux-content button{
+  text-align: center;
+}
